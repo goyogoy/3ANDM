@@ -1,7 +1,7 @@
+
 import React, { useState, useMemo } from 'react';
 import {View,TextInput,FlatList,Text,StyleSheet,TouchableOpacity,Image,ActivityIndicator,} from 'react-native';
 import debounce from 'lodash.debounce';
-
 import { SearchStackProps } from '../navigation/AppNavigator'; 
 import { searchProducts } from '../utils/openFoodApi';
 import { nutriColors } from '../utils/productHelpers';

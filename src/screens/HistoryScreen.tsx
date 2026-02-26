@@ -1,13 +1,20 @@
-import React from 'react';
-import { View, Text, Switch, StyleSheet } from 'react-native';
-import { useTheme } from '../context/ThemeContext';
+import React, { useEffect, useState } from 'react';
+import {
+  View,
+  Text,
+  Image,
+  StyleSheet,
+  ScrollView,
+} from 'react-native';
 
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
-export default function SettingsScreen() {
+type Props = NativeStackScreenProps<any, any>;
 
-  return (
-    <View>
-      <Text>Historique des produits scannés</Text>
-    </View>
-  );
+export default function HistoryScreen() {
+    return (
+        <View >
+            <Text>Historique des recherches</Text>
+        </View>
+    );
 }
