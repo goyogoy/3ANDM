@@ -17,11 +17,11 @@ import {
 } from 'react-native';
 
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { RootStackParamList } from '../navigation/AppNavigator';
+import { SearchStackProps } from '../navigation/AppNavigator';
 import { getProductByCode } from '../utils/openFoodApi';
 import { nutriColors, novaDescriptions } from '../utils/productHelpers';
 
-type Props = NativeStackScreenProps<RootStackParamList, 'Product'>;
+type Props = SearchStackProps<'Product'>;
 
 export default function ProductScreen({ route }: Props) {
   const { code } = route.params;
