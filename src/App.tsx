@@ -2,12 +2,15 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 import AppNavigator from './navigation/AppNavigator';
+import { ThemeProvider } from '../src/context/ThemeContext';
 
 export default function App() {
   return (
-    <View style={{ flex: 1 }}>
-      <AppNavigator />
-    </View>
+    <ThemeProvider>
+      <View style={{ flex: 1 }}>
+        <AppNavigator />
+      </View>
+    </ThemeProvider>
   );
 }
 
