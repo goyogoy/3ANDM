@@ -107,7 +107,7 @@ src/
 | Historique des scans | Sadia|
 | Dashboard score nutritionnel | Sadia |
 | Comparateur de produits | Sadia |
-| Favoris avec catégories | Sadia |
+| Favoris avec catégories | Jules & Sadia |
 | Navigation (Tab + Stack) | Jules|
 | Recherche avec debounce | Jules|
 | Paramètres (dark mode, allergènes, régimes) | Jules |
