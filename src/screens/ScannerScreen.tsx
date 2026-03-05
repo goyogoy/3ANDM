@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
   cornerBL: { bottom: 0, left: 0, borderBottomWidth: THICK, borderLeftWidth: THICK },
   cornerBR: { bottom: 0, right: 0, borderBottomWidth: THICK, borderRightWidth: THICK },
   loadingBox: { position: 'absolute', bottom: 130, alignSelf: 'center', flexDirection: 'row', alignItems: 'center', gap: 10, backgroundColor: 'rgba(0,0,0,0.75)', paddingHorizontal: 20, paddingVertical: 14, borderRadius: 12 },
-  loadingText: { color: '#fff', fontSize: 14 },
+  loadingText: { color: '#fff', fontSize: 14, fontWeight: '600' },
   instructionsBox: { position: 'absolute', bottom: 80, left: 0, right: 0, alignItems: 'center', gap: 6 },
   instructionsText: { color: '#fff', fontSize: 16, fontWeight: '600' },
   instructionsSub: { color: 'rgba(255,255,255,0.65)', fontSize: 13 },
